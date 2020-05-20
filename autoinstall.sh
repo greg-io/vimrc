@@ -15,7 +15,7 @@ install_vimrc () {
     [ -e "~/.vim" ] && die "~/.vim already exists."
     [ -e "~/.vimrc" ] && die "~/.vimrc already exists."
 
-    cd "$INSTALL_TO"
+    mkdir -p "$INSTALL_TO" && cd "$INSTALL_TO"
     git clone git@github.com:greg-io/vimrc.git
     cd vimrc
 
