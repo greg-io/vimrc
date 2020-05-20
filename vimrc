@@ -1,6 +1,11 @@
 "
 " Personal preference .vimrc file
 "
+" Credits:
+"   https://nvie.com/posts/how-i-boosted-my-vim/
+"   https://github.com/tpope/vim-pathogen
+"   https://stevelosh.com/blog/2010/09/coming-home-to-vim/
+"
 " To start vim without using this .vimrc file, use:
 "     vim -u NORC
 "
