@@ -2,5 +2,12 @@
 
 Run this script to install and configure this vimrc in your $HOME dir:
 
-`wget -O - https://github.com/greg-io/vimrc/raw/master/autoinstall.sh | sh`
+```bash
+
+cd
+rm -rf ~/.vim*
+rm -rf ~/tools/vimrc
+curl -s https://raw.githubusercontent.com/greg-io/vimrc/master/autoinstall.sh | sh
+
+```
 
