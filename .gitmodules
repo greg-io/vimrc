@@ -10,3 +10,6 @@
 [submodule "vim/bundle/oceanic-next"]
 	path = vim/bundle/oceanic-next
 	url = https://github.com/mhartington/oceanic-next.git
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
